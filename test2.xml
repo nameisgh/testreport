@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="x-sjis" standalone="yes" ?>
+<!-- メッセージ情報ファイル -->
+<!-- DTD -->
+<!DOCTYPE online_message [
+    <!ELEMENT message (contents,url)*>
+    <!ATTLIST message id CDATA #REQUIRED level CDATA #REQUIRED from CDATA #REQUIRED to CDATA #REQUIRED>
+    <!ELEMENT contents (#PCDATA)>
+    <!ELEMENT url (#PCDATA)>
+]>
+<!-- データ部 -->
+<online_message>
+<message id="PCFA00001" level="I" from="20020101" to="99991231"><contents>当該処理は正常終了しました。</contents><url></url></message>
+<message id="PCFA00002" level="W" from="20020101" to="99991231"><contents>軽度システムエラー。処理を続行します。{0}</contents><url></url></message>
+<message id="PCFA00003" level="E" from="20020101" to="99991231"><contents>重度システムエラー。処理を中断します。{0}</contents><url></url></message>
+<message id="PCFA00004" level="I" from="20020101" to="99991231"><contents>該当する情報が存在しませんでした。</contents><url></url></message>
+<message id="PCFA00005" level="W" from="20020101" to="99991231"><contents>お客さま情報が重複しています。既存のお客さま情報として登録しました。</contents><url></url></message>
+<message id="PCFA00006" level="I" from="20020101" to="99991231"><contents>該当する情報が既に存在します。</contents><url></url></message>
+<message id="PCFA00007" level="I" from="20020101" to="99991231"><contents>正常に問合受付情報を登録しました。</contents><url></url></message>
+<message id="PCFA00008" level="I" from="20020101" to="99991231"><contents>問合受付情報を変更しました。</contents><url></url></message>
+<message id="PCFA90000" level="E" from="20020101" to="99991231"><contents>サーバ送信中です。</contents><url></url></message>
+<message id="PCFA90001" level="E" from="20020101" to="99991231"><contents>お客さま情報を入力してください。</contents><url></url></message>
+<message id="PCFA90002" level="I" from="20020101" to="99991231"><contents>お客さま情報をコピーしました。</contents><url></url></message>
+<message id="PCFA90003" level="E" from="20020101" to="99991231"><contents>お客さま状況を入力してください。</contents><url></url></message>
+<message id="PCFA90004" level="E" from="20020101" to="99991231"><contents>お客さま番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90005" level="E" from="20020101" to="99991231"><contents>お客さま番号を入力してください。</contents><url></url></message>
+<message id="PCFA90006" level="E" from="20000101" to="99991231"><contents>お客さま勤務先情報はありません。</contents><url></url></message>
+<message id="PCFA90007" level="I" from="20000101" to="99991231"><contents>お客さま勤務先情報を問合情報へコピーしました。</contents><url></url></message>
+<message id="PCFA90008" level="I" from="20000101" to="99991231"><contents>お客さま個人情報を問合情報へコピーしました。</contents><url></url></message>
+<message id="PCFA90009" level="E" from="20020101" to="99991231"><contents>カード番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90010" level="E" from="20020101" to="99991231"><contents>カード番号を入力してください。</contents><url></url></message>
+<message id="PCFA90011" level="E" from="20020101" to="99991231"><contents>カナ姓を全角カナで入力してください。</contents><url></url></message>
+<message id="PCFA90012" level="E" from="20020101" to="99991231"><contents>カナ姓を入力してください。</contents><url></url></message>
+<message id="PCFA90013" level="E" from="20020101" to="99991231"><contents>カナ名を全角カナで入力してください。</contents><url></url></message>
+<message id="PCFA90014" level="E" from="20020101" to="99991231"><contents>カナ名を入力してください。</contents><url></url></message>
+<message id="PCFA90015" level="E" from="20000101" to="99991231"><contents>カナ名称を全角で入力してください。</contents><url></url></message>
+<message id="PCFA90016" level="E" from="20000101" to="99991231"><contents>カナ名称を全角で入力してください。</contents><url></url></message>
+<message id="PCFA90017" level="E" from="20020101" to="99991231"><contents>クレジットカード会社コードを半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90018" level="E" from="20020101" to="99991231"><contents>クレジットカード会社コードを入力してください。</contents><url></url></message>
+<message id="PCFA90019" level="E" from="20020101" to="99991231"><contents>クレジット情報を入力してください。</contents><url></url></message>
+<message id="PCFA90020" level="E" from="20020101" to="99991231"><contents>サーバ送信エラー。</contents><url></url></message>
+<message id="PCFA90021" level="E" from="20020101" to="99991231"><contents>サービス契約番号を入力してください。</contents><url></url></message>
+<message id="PCFA90022" level="E" from="20000101" to="99991231"><contents>フリガナを全角で入力してください。</contents><url></url></message>
+<message id="PCFA90023" level="E" from="20020101" to="99991231"><contents>フリガナを入力してください。</contents><url></url></message>
+<message id="PCFA90024" level="E" from="20000101" to="99991231"><contents>メールアドレス１を半角で入力してください。</contents><url></url></message>
+<message id="PCFA90025" level="E" from="20000101" to="99991231"><contents>メールアドレス２を半角で入力してください。</contents><url></url></message>
+<message id="PCFA90026" level="E" from="20000101" to="99991231"><contents>メールアドレスを半角で入力してください。</contents><url></url></message>
+<message id="PCFA90027" level="E" from="20020101" to="99991231"><contents>メール通知希望フラグを入力してください。</contents><url></url></message>
+<message id="PCFA90028" level="E" from="20020101" to="99991231"><contents>レターステータスを半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90029" level="E" from="20020101" to="99991231"><contents>レターステータスを入力してください。</contents><url></url></message>
+<message id="PCFA90030" level="E" from="20020101" to="99991231"><contents>レター情報番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90031" level="E" from="20020101" to="99991231"><contents>レター情報番号を入力してください。</contents><url></url></message>
+<message id="PCFA90032" level="E" from="20020101" to="99991231"><contents>レター送信日付を入力してください。</contents><url></url></message>
+<message id="PCFA90033" level="E" from="20020101" to="99991231"><contents>レター送信日付が暦日として正しくありません。</contents><url></url></message>
+<message id="PCFA90034" level="E" from="20020101" to="99991231"><contents>レター発送日を入力してください。</contents><url></url></message>
+<message id="PCFA90035" level="E" from="20020101" to="99991231"><contents>レター発送日が暦日として正しくありません。</contents><url></url></message>
+<message id="PCFA90036" level="E" from="20000101" to="99991231"><contents>可変項目を入力してください。</contents><url></url></message>
+<message id="PCFA90037" level="E" from="20000101" to="99991231"><contents>課金ＩＤを半角英数字で入力してください。</contents><url></url></message>
+<message id="PCFA90038" level="E" from="20020101" to="99991231"><contents>課金ＩＤを入力してください。</contents><url></url></message>
+<message id="PCFA90039" level="E" from="20000101" to="99991231"><contents>会員氏名を全角で入力してください。</contents><url></url></message>
+<message id="PCFA90040" level="E" from="20020101" to="99991231"><contents>会員氏名を入力してください。</contents><url></url></message>
+<message id="PCFA90041" level="E" from="20020101" to="99991231"><contents>企業グループコードを入力してください。</contents><url></url></message>
+<message id="PCFA90042" level="E" from="20020101" to="99991231"><contents>業種を選択してください。</contents><url></url></message>
+<message id="PCFA90043" level="E" from="20000101" to="99991231"><contents>勤務先電話番号を半角で入力してください。</contents><url></url></message>
+<message id="PCFA90044" level="E" from="20020101" to="99991231"><contents>勤務先電話番号を入力してください。</contents><url></url></message>
+<message id="PCFA90045" level="E" from="20000101" to="99991231"><contents>勤務先名を全角で入力してください。</contents><url></url></message>
+<message id="PCFA90046" level="E" from="20020101" to="99991231"><contents>勤務先名を入力してください。</contents><url></url></message>
+<message id="PCFA90047" level="E" from="20020101" to="99991231"><contents>金融機関コードを半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90048" level="E" from="20020101" to="99991231"><contents>金融機関コードを入力してください。</contents><url></url></message>
+<message id="PCFA90049" level="E" from="20020101" to="99991231"><contents>銀行情報を入力してください。</contents><url></url></message>
+<message id="PCFA90050" level="E" from="20020101" to="99991231"><contents>契約プロダクトコードを半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90051" level="E" from="20020101" to="99991231"><contents>契約プロダクトコードを入力してください。</contents><url></url></message>
+<message id="PCFA90052" level="E" from="20020101" to="99991231"><contents>契約者番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90053" level="E" from="20020101" to="99991231"><contents>契約者番号を入力してください。</contents><url></url></message>
+<message id="PCFA90054" level="E" from="20020101" to="99991231"><contents>計算群を選択してください。</contents><url></url></message>
+<message id="PCFA90055" level="E" from="20000101" to="99991231"><contents>検索基準日を指定してください。</contents><url></url></message>
+<message id="PCFA90056" level="E" from="20000101" to="99991231"><contents>検索項目を入力してください。</contents><url></url></message>
+<message id="PCFA90057" level="E" from="20020101" to="99991231"><contents>見込顧客番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90058" level="E" from="20020101" to="99991231"><contents>見込顧客番号を入力してください。</contents><url></url></message>
+<message id="PCFA90059" level="E" from="20020101" to="99991231"><contents>個人法人区分を選択してください。</contents><url></url></message>
+<message id="PCFA90060" level="E" from="20020101" to="99991231"><contents>口座番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90061" level="E" from="20020101" to="99991231"><contents>口座番号を入力してください。</contents><url></url></message>
+<message id="PCFA90062" level="E" from="20000101" to="99991231"><contents>口座名義を全角で入力してください。</contents><url></url></message>
+<message id="PCFA90063" level="E" from="20020101" to="99991231"><contents>口座名義を入力してください。</contents><url></url></message>
+<message id="PCFA90064" level="E" from="20020101" to="99991231"><contents>支店コードを半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90065" level="E" from="20020101" to="99991231"><contents>支店コードを入力してください。</contents><url></url></message>
+<message id="PCFA90066" level="E" from="20020101" to="99991231"><contents>支払方法区分を選択してください。</contents><url></url></message>
+<message id="PCFA90067" level="E" from="20000101" to="99991231"><contents>氏名を全角で入力してください。</contents><url></url></message>
+<message id="PCFA90068" level="E" from="20020101" to="99991231"><contents>氏名を入力してください。</contents><url></url></message>
+<message id="PCFA90069" level="E" from="20020101" to="99991231"><contents>種別コードを半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90070" level="E" from="20020101" to="99991231"><contents>種別コードを入力してください。</contents><url></url></message>
+<message id="PCFA90071" level="E" from="20020101" to="99991231"><contents>種目コードを半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90072" level="E" from="20020101" to="99991231"><contents>種目コードを入力してください。</contents><url></url></message>
+<message id="PCFA90073" level="E" from="20020101" to="99991231"><contents>受付担当社員番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90074" level="E" from="20020101" to="99991231"><contents>受付担当社員番号を入力してください。</contents><url></url></message>
+<message id="PCFA90075" level="E" from="20020101" to="99991231"><contents>受付日を入力してください。</contents><url></url></message>
+<message id="PCFA90076" level="E" from="20020101" to="99991231"><contents>受付日が暦日として正しくありません。</contents><url></url></message>
+<message id="PCFA90077" level="E" from="20020101" to="99991231"><contents>終了日が開始日以前の日付です。</contents><url></url></message>
+<message id="PCFA90078" level="E" from="20020101" to="99991231"><contents>終了日が開始日以前の日付です。</contents><url></url></message>
+<message id="PCFA90079" level="E" from="20020101" to="99991231"><contents>住所を入力してください。</contents><url></url></message>
+<message id="PCFA90080" level="E" from="20020101" to="99991231"><contents>住所コードを入力してください。</contents><url></url></message>
+<message id="PCFA90081" level="E" from="20020101" to="99991231"><contents>商品情報を選択してください。</contents><url></url></message>
+<message id="PCFA90082" level="E" from="20020101" to="99991231"><contents>職種を選択してください。</contents><url></url></message>
+<message id="PCFA90083" level="E" from="20020101" to="99991231"><contents>申込管理番号を入力してください。</contents><url></url></message>
+<message id="PCFA90084" level="E" from="20020101" to="99991231"><contents>申込書番号を入力してください。</contents><url></url></message>
+<message id="PCFA90085" level="E" from="20020101" to="99991231"><contents>申込日を入力してください。</contents><url></url></message>
+<message id="PCFA90086" level="E" from="20020101" to="99991231"><contents>申込日が暦日として正しくありません。</contents><url></url></message>
+<message id="PCFA90087" level="E" from="20020101" to="99991231"><contents>親権者番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90088" level="E" from="20020101" to="99991231"><contents>親権者番号を入力してください。</contents><url></url></message>
+<message id="PCFA90089" level="E" from="20020101" to="99991231"><contents>姓を入力してください。</contents><url></url></message>
+<message id="PCFA90090" level="E" from="20020101" to="99991231"><contents>性別を入力してください。</contents><url></url></message>
+<message id="PCFA90091" level="E" from="20020101" to="99991231"><contents>生年月日を入力してください。</contents><url></url></message>
+<message id="PCFA90092" level="E" from="20020101" to="99991231"><contents>生年月日が暦日として正しくありません。</contents><url></url></message>
+<message id="PCFA90093" level="E" from="20020101" to="99991231"><contents>請求先番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90094" level="E" from="20020101" to="99991231"><contents>請求先番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90095" level="E" from="20020101" to="99991231"><contents>請求先番号を入力してください。</contents><url></url></message>
+<message id="PCFA90096" level="E" from="20000101" to="99991231"><contents>選択してください。</contents><url></url></message>
+<message id="PCFA90097" level="E" from="20000101" to="99991231"><contents>送付先氏名を全角で入力してください。</contents><url></url></message>
+<message id="PCFA90098" level="E" from="20000101" to="99991231"><contents>送付先氏名を入力してください。</contents><url></url></message>
+<message id="PCFA90099" level="E" from="20000101" to="99991231"><contents>送付先住所を入力してください。</contents><url></url></message>
+<message id="PCFA90100" level="E" from="20020101" to="99991231"><contents>送付先情報区分を選択してください。</contents><url></url></message>
+<message id="PCFA90101" level="E" from="20020101" to="99991231"><contents>送付先番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90102" level="E" from="20020101" to="99991231"><contents>送付先番号を入力してください。</contents><url></url></message>
+<message id="PCFA90103" level="E" from="20020101" to="99991231"><contents>送付先郵便番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90104" level="E" from="20000101" to="99991231"><contents>送付先郵便番号を入力してください。</contents><url></url></message>
+<message id="PCFA90105" level="E" from="20020101" to="99991231"><contents>続柄を入力してください。</contents><url></url></message>
+<message id="PCFA90106" level="E" from="20000101" to="99991231"><contents>対応先メールアドレスを半角で入力してください。</contents><url></url></message>
+<message id="PCFA90107" level="E" from="20020101" to="99991231"><contents>対応先電話番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90108" level="E" from="20000101" to="99991231"><contents>対応内容を全角で入力してください。</contents><url></url></message>
+<message id="PCFA90109" level="E" from="20000101" to="99991231"><contents>通帳記号を半角英数字で入力してください。</contents><url></url></message>
+<message id="PCFA90110" level="E" from="20020101" to="99991231"><contents>通帳記号を入力してください。</contents><url></url></message>
+<message id="PCFA90111" level="E" from="20020101" to="99991231"><contents>通帳番号を半角数字で入力してください。</contents><url></url></message>
+<message id="PCFA90112" level="E" from="20020101" to="99991231"><contents>通帳番号を入力してください。</contents><url></url></message>
+<message id="PCFA90113" level="E" from="20020101" to="99991231"><contents>定例文が取得されていません。</contents><url></url></message>
+<message id="PCFA90114" level="E" from="20020101" to="99991231"><contents>締日群を選択してください。</contents><url></url></message>
+<message id="PCFA90115" level="E" from="20020101" to="99991231"><contents>電話番号１を数字で入力してください。</contents><url></url></message>
+<message id="PCFA90116" level="E" from="20000101" to="99991231"><contents>電話番号１を半角で入力してください。</contents><url></url></message>
+<message id="PCFA90117" level="E" from="20020101" to="99991231"><contents>電話番号２を数字で入力してください。</contents><url></url></message>
+<message id="PCFA90118" level="E" from="20000101" to="99991231"><contents>電話番号２を半角で入力してください。</contents><url></url></message>
+<message id="PCFA90119" level="E" from="20020101" to="99991231"><contents>電話番号３を数字で入力してください。</contents><url></url></message>
+<message id="PCFA90120" level="E" from="20020101" to="99991231"><contents>電話番号を半角数字で入力してください。</contents><url></url></message>
+
+
+</online_message>
